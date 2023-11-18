@@ -46,5 +46,4 @@ for plugin in ${allowedPlugins[@]}; do
   composer config --no-plugins allow-plugins.$plugin true
 done
 
-mkdir -p ${FARMOS_PATH}/web/sites
-mkdir -p ${FARMOS_PATH}/vendor
+mkdir -p ${FARMOS_PATH}/web/sites/simpletest/browser_output
